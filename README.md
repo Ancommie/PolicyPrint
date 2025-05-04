@@ -4,7 +4,7 @@
 
 ## 项目简介
 
-本项目提供了一套基于 Selenium 和 Edge 浏览器 DevTools 协议的自动化爬取脚本，用于从“国务院政务网站搜索”（https://sousuo.www.gov.cn）中按关键词和时间范围下载政府公文的 PDF 文件。脚本具备以下核心功能：
+本项目提供了一套基于 Selenium 和 Edge 浏览器 DevTools 协议的自动化爬取脚本，用于从“中国政府网站内搜索页”（ https://sousuo.www.gov.cn ）中按关键词和时间范围下载政府公文的 PDF 文件。脚本具备以下核心功能：
 
 - 自动翻页检索指定年份区间内的公文列表  
 - 筛选标题中包含特定公文类型关键词的条目  
@@ -27,7 +27,7 @@
 3. **浏览器驱动**
 
    * **Microsoft Edge** 浏览器（版本 ≥ 80）
-   * 对应版本的 **msedgedriver**（请确保驱动可执行文件在 PATH 中，或通过 `webdriver.Edge(executable_path=...)` 显式指定）
+   * 对应版本的 **msedgedriver**
 
 
 ## 参数说明
@@ -78,6 +78,6 @@
 
 ## 联系方式
 
-如有问题或功能改进建议，欢迎联系维护者：
+如有问题或功能改进建议，欢迎联系开发者：
 
 * **邮箱**：zouchuze@gmail.com
