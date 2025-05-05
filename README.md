@@ -22,12 +22,12 @@
 
 2. **第三方库**  
 
-   pip install selenium
+   - 项目使用了Selenium库
 
 3. **浏览器驱动**
 
-   * **Microsoft Edge** 浏览器（版本 ≥ 80）
-   * 对应版本的 **msedgedriver**
+   - **Microsoft Edge** 浏览器（版本 ≥ 80）
+   - 对应版本的 **msedgedriver**
 
 
 ## 参数说明
@@ -56,15 +56,15 @@
    
 2. **填写检索参数**
 
-   * 在脚本顶部逐项修改 `keyword`、`INCLUDE_KEYWORDS`、`BASE_PATH`、`YEARS`、`Sleep_time`
-   * 填入从官网抓包取得的 `code`、`sign`
+   - 在脚本顶部逐项修改 `keyword`、`INCLUDE_KEYWORDS`、`BASE_PATH`、`YEARS`、`Sleep_time`
+   - 填入从官网抓包取得的 `code`、`sign`
 
 3. **运行脚本**
 
 4. **结果检验**
 
-   * 进入 `BASE_PATH` 指定目录
-   * 可看到按年份分文件夹存储的 PDF 文件
+   - 进入 `BASE_PATH` 指定目录
+   - 可看到按年份分文件夹存储的 PDF 文件
 
 
 ## 注意事项
@@ -79,4 +79,4 @@
 
 如有问题或功能改进建议，欢迎联系开发者：
 
-* **邮箱**：zouchuze@gmail.com
+- **邮箱**：zouchuze@gmail.com
